@@ -3,11 +3,6 @@
     font-size: 32px;
     
   }
-  /* 「.top-wrapper h1」のfont-sizeを32pxに指定 */
-  .copy-container h2 {
-    font-size : 28px;
-  }
-  
 }
 
 @media(max-width: 670px) {
