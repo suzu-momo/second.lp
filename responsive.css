@@ -5,18 +5,72 @@
   }
 }
 
-@media(max-width: 670px) {
-  .copy-container {
-    width: 100%;
-  }
-img {
-    width: 50%;
-}
-footer {
-    input,textarea {
-    
-    }
-  }
+@media (max-width: 768px) {
 
- 
+    /* ===== ヘッダー ===== */
+    .header {
+        height: auto;
+    }
+
+    .header-logo {
+        float: none;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .header-list li {
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* ===== メイン ===== */
+    .main {
+        padding: 40px 20px;
+    }
+
+    /* ===== コピー ===== */
+    .copy-container h1 {
+        font-size: 60px;
+    }
+
+    .copy-container h2 {
+        font-size: 24px;
+    }
+
+    /* ===== コンテンツ ===== */
+    .contents {
+        height: auto;
+    }
+
+    .contents-item {
+        float: none;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contents-item img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* ===== フォーム ===== */
+    input, textarea {
+        width: 100%;
+    }
+
+    /* ===== フッター ===== */
+    .footer {
+        height: auto;
+        text-align: center;
+    }
+
+    .footer-logo {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .footer-list {
+        float: none;
+    }
 }
