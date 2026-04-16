@@ -1,0 +1,27 @@
+@media(max-width: 1000px) {
+    .copy-container h1 {
+    font-size: 32px;
+    
+  }
+  /* 「.top-wrapper h1」のfont-sizeを32pxに指定 */
+  .copy-container h2 {
+    font-size : 28px;
+  }
+  
+}
+
+@media(max-width: 670px) {
+  .copy-container {
+    width: 100%;
+  }
+img {
+    width: 50%;
+}
+footer {
+    input,textarea {
+        float: left;
+    }
+  }
+
+ 
+}
