@@ -90,9 +90,15 @@ input,textarea {
 .footer {
     background-color: #571c9f;
     color: white;
-    height: 200px;
+    height: autop;
     padding: 40px;
 }
+
+/* ← パイセン分追加 */
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
 
 .footer-logo {
     font-size: 32px;
@@ -105,4 +111,5 @@ input,textarea {
 
 .footer-list li {
     padding-bottom: 20px;
+    display: block;
 }
